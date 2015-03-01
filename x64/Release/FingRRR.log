@@ -1,0 +1,66 @@
+﻿Build started 1/26/2015 12:16:25 AM.
+     1>Project "D:\Google Drive\University\2A\Human Computer Interaction\Projects\Term\FingRRR\FingRRR\FingRRR.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (FingRRR_HCI_Prj01.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt FingRRR.cpp
+         FingRRR.cpp
+     1>d:\google drive\university\2a\human computer interaction\projects\term\fingrrr\fingrrr\FingRRR.h(18): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 command-line arguments :  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+     1>FingRRR.cpp(112): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>FingRRR.cpp(131): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>FingRRR.cpp(136): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>FingRRR.cpp(302): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>FingRRR.cpp(303): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>FingRRR.cpp(304): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>FingRRR.cpp(319): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>FingRRR.cpp(320): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>FingRRR.cpp(321): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>FingRRR.cpp(343): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>FingRRR.cpp(344): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>FingRRR.cpp(345): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>FingRRR.cpp(360): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>FingRRR.cpp(361): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>FingRRR.cpp(362): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>FingRRR.cpp(378): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>FingRRR.cpp(379): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>FingRRR.cpp(380): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>FingRRR.cpp(394): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>FingRRR.cpp(395): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>FingRRR.cpp(396): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>FingRRR.cpp(669): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>FingRRR.cpp(803): warning C4244: 'argument' : conversion from 'double' to 'clock_t', possible loss of data
+     1>FingRRR.cpp(812): warning C4244: 'argument' : conversion from 'double' to 'clock_t', possible loss of data
+     1>FingRRR.cpp(828): warning C4244: 'argument' : conversion from 'double' to 'clock_t', possible loss of data
+     1>FingRRR.cpp(836): warning C4244: 'argument' : conversion from 'double' to 'clock_t', possible loss of data
+     1>FingRRR.cpp(1084): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>FingRRR.cpp(527): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 FingRRR.cpp(624) : see reference to function template instantiation 'void fixCoord<int>(T &,T &)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>FingRRR.cpp(528): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>FingRRR.cpp(543): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 FingRRR.cpp(625) : see reference to function template instantiation 'void extendCoord<int>(T &,T &,int &,int &)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>FingRRR.cpp(544): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>FingRRR.cpp(788): warning C4244: '=' : conversion from 'const double' to 'int', possible loss of data
+                 FingRRR.cpp(803) : see reference to function template instantiation 'void posFuncConst<int>(T *,T *,const clock_t &,const clock_t &,const clock_t &,const clock_t &,const int &,const double *)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Google Drive\University\2A\Human Computer Interaction\Projects\Term\FingRRR\x64\Release\FingRRR.exe" /NOLOGO pthreadVC2.lib opencv_core249.lib opencv_highgui249.lib opencv_imgproc249.lib opencv_video249.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Google Drive\University\2A\Human Computer Interaction\Projects\Term\FingRRR\x64\Release\FingRRR.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Google Drive\University\2A\Human Computer Interaction\Projects\Term\FingRRR\x64\Release\FingRRR.lib" /MACHINE:X64 x64\Release\FingRRR.obj
+         x64\Release\main.obj
+         Generating code
+         Finished generating code
+         FingRRR.vcxproj -> D:\Google Drive\University\2A\Human Computer Interaction\Projects\Term\FingRRR\x64\Release\FingRRR.exe
+     1>Done Building Project "D:\Google Drive\University\2A\Human Computer Interaction\Projects\Term\FingRRR\FingRRR\FingRRR.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.75

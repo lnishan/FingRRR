@@ -1,0 +1,38 @@
+﻿Build started 12/24/2014 11:58:06 PM.
+     1>Project "F:\University\2A\Human Computer Interaction\Projects\1\HCI_Prj01\FingRRR_HCI_Prj01\FingRRR_HCI_Prj01\FingRRR_HCI_Prj01.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt FingRRR.cpp
+         FingRRR.cpp
+     1>f:\university\2a\human computer interaction\projects\1\hci_prj01\fingrrr_hci_prj01\fingrrr_hci_prj01\FingRRR.h(15): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 command-line arguments :  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+     1>FingRRR.cpp(62): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>FingRRR.cpp(80): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>FingRRR.cpp(82): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>FingRRR.cpp(221): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>FingRRR.cpp(227): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>FingRRR.cpp(227): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>FingRRR.cpp(413): warning C4101: 'maxArea' : unreferenced local variable
+     1>FingRRR.cpp(416): warning C4101: 'tmpDiff' : unreferenced local variable
+     1>FingRRR.cpp(416): warning C4101: 'minDist' : unreferenced local variable
+     1>FingRRR.cpp(416): warning C4101: 'tmpDist' : unreferenced local variable
+     1>FingRRR.cpp(416): warning C4101: 'minDiff' : unreferenced local variable
+     1>FingRRR.cpp(413): warning C4101: 'j' : unreferenced local variable
+     1>FingRRR.cpp(503): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>FingRRR.cpp(638): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>FingRRR.cpp(828): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>FingRRR.cpp(332): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 FingRRR.cpp(449) : see reference to function template instantiation 'void fixCoord<int>(T &,T &)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>FingRRR.cpp(333): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\University\2A\Human Computer Interaction\Projects\1\HCI_Prj01\FingRRR_HCI_Prj01\x64\Debug\FingRRR_HCI_Prj01.exe" /INCREMENTAL /NOLOGO opencv_core249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_video249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\University\2A\Human Computer Interaction\Projects\1\HCI_Prj01\FingRRR_HCI_Prj01\x64\Debug\FingRRR_HCI_Prj01.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\University\2A\Human Computer Interaction\Projects\1\HCI_Prj01\FingRRR_HCI_Prj01\x64\Debug\FingRRR_HCI_Prj01.lib" /MACHINE:X64 x64\Debug\FingRRR.obj
+         x64\Debug\main.obj
+         FingRRR_HCI_Prj01.vcxproj -> F:\University\2A\Human Computer Interaction\Projects\1\HCI_Prj01\FingRRR_HCI_Prj01\x64\Debug\FingRRR_HCI_Prj01.exe
+     1>Done Building Project "F:\University\2A\Human Computer Interaction\Projects\1\HCI_Prj01\FingRRR_HCI_Prj01\FingRRR_HCI_Prj01\FingRRR_HCI_Prj01.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.99

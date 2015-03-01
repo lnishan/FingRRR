@@ -1,0 +1,49 @@
+﻿Build started 12/29/2014 12:26:54 AM.
+     1>Project "D:\Google Drive\University\2A\Human Computer Interaction\Projects\Term\FingRRR_HCI_Prj02\FingRRR_HCI_Prj01\FingRRR_HCI_Prj01.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (FingRRR_HCI_Prj01.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt FingRRR.cpp main.cpp
+         FingRRR.cpp
+     1>d:\google drive\university\2a\human computer interaction\projects\term\fingrrr_hci_prj02\fingrrr_hci_prj01\FingRRR.h(16): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 command-line arguments :  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+     1>FingRRR.cpp(108): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>FingRRR.cpp(126): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>FingRRR.cpp(131): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>FingRRR.cpp(282): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>FingRRR.cpp(288): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>FingRRR.cpp(288): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>FingRRR.cpp(557): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>FingRRR.cpp(691): warning C4244: 'argument' : conversion from 'double' to 'clock_t', possible loss of data
+     1>FingRRR.cpp(700): warning C4244: 'argument' : conversion from 'double' to 'clock_t', possible loss of data
+     1>FingRRR.cpp(716): warning C4244: 'argument' : conversion from 'double' to 'clock_t', possible loss of data
+     1>FingRRR.cpp(724): warning C4244: 'argument' : conversion from 'double' to 'clock_t', possible loss of data
+     1>FingRRR.cpp(768): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>FingRRR.cpp(977): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>FingRRR.cpp(415): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 FingRRR.cpp(512) : see reference to function template instantiation 'void fixCoord<int>(T &,T &)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>FingRRR.cpp(416): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>FingRRR.cpp(431): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 FingRRR.cpp(513) : see reference to function template instantiation 'void extendCoord<int>(T &,T &,int &,int &)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>FingRRR.cpp(432): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         main.cpp
+     1>d:\google drive\university\2a\human computer interaction\projects\term\fingrrr_hci_prj02\fingrrr_hci_prj01\FingRRR.h(16): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 command-line arguments :  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Google Drive\University\2A\Human Computer Interaction\Projects\Term\FingRRR_HCI_Prj02\x64\Release\FingRRR.exe" /NOLOGO opencv_core249.lib opencv_highgui249.lib opencv_imgproc249.lib opencv_video249.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Google Drive\University\2A\Human Computer Interaction\Projects\Term\FingRRR_HCI_Prj02\x64\Release\FingRRR.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Google Drive\University\2A\Human Computer Interaction\Projects\Term\FingRRR_HCI_Prj02\x64\Release\FingRRR.lib" /MACHINE:X64 x64\Release\FingRRR.obj
+         x64\Release\main.obj
+         Generating code
+         Finished generating code
+         FingRRR_HCI_Prj01.vcxproj -> D:\Google Drive\University\2A\Human Computer Interaction\Projects\Term\FingRRR_HCI_Prj02\x64\Release\FingRRR.exe
+     1>Done Building Project "D:\Google Drive\University\2A\Human Computer Interaction\Projects\Term\FingRRR_HCI_Prj02\FingRRR_HCI_Prj01\FingRRR_HCI_Prj01.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.47
