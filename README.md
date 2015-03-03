@@ -14,8 +14,8 @@ more advanced and intuitive interaction.
 
 ##### For a better reference
 - [Refer to this slide](http://1drv.ms/1vW2Ysq)  
-Note that this slide is made when FingRRR still uses one thread, but this one shall give you a good grasp of FingRRR.  
-For the multithreaded FingRRR, you can refer to this [Slide](http://1drv.ms/1CmK2p1)  
+Note that this slide demonstrated an older version of FingRRR, but this one shall give you a good grasp of FingRRR.  
+For the new, multithreaded FingRRR, you can refer to this [Slide](http://1drv.ms/1CmK2p1)  
 - [Detailed technical report](http://1drv.ms/1EI4FLZ)
 
 ### Examples
