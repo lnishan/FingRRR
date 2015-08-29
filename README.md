@@ -1,5 +1,5 @@
 # FingRRR
-a light 2D interaction framework structured on OpenCV
+A light 2D interaction framework structured on OpenCV
 
 ### Motive
 ##### Why the framework?
